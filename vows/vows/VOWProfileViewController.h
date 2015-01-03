@@ -1,5 +1,5 @@
 //
-//  VOWLoginViewController.h
+//  VOWProfileViewController.h
 //  vows
 //
 //  Created by Zachary Weiner on 1/3/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VOWLoginViewController : UIViewController <NSURLConnectionDataDelegate>
+@interface VOWProfileViewController : UIViewController
 
 @end

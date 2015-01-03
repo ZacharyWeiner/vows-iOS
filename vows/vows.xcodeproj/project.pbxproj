@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1449234D1A584F970009D306 /* VOWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449234C1A584F970009D306 /* VOWConstants.m */; };
+		144923511A5857490009D306 /* VOWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144923501A5857490009D306 /* VOWProfileViewController.m */; };
 		14E678B51A57BF8F000AD141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678B41A57BF8F000AD141 /* main.m */; };
 		14E678B81A57BF8F000AD141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678B71A57BF8F000AD141 /* AppDelegate.m */; };
 		14E678BB1A57BF8F000AD141 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678BA1A57BF8F000AD141 /* FirstViewController.m */; };
@@ -31,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		0CFC8CBE4D697486BD9AB652 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1449234B1A584F970009D306 /* VOWConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOWConstants.h; sourceTree = "<group>"; };
+		1449234C1A584F970009D306 /* VOWConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOWConstants.m; sourceTree = "<group>"; };
+		1449234F1A5857490009D306 /* VOWProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOWProfileViewController.h; sourceTree = "<group>"; };
+		144923501A5857490009D306 /* VOWProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOWProfileViewController.m; sourceTree = "<group>"; };
 		14E678AF1A57BF8F000AD141 /* vows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E678B31A57BF8F000AD141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14E678B41A57BF8F000AD141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1449234E1A5857190009D306 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1449234F1A5857490009D306 /* VOWProfileViewController.h */,
+				144923501A5857490009D306 /* VOWProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		14E678A61A57BF8F000AD141 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +109,7 @@
 		14E678B11A57BF8F000AD141 /* vows */ = {
 			isa = PBXGroup;
 			children = (
+				1449234E1A5857190009D306 /* Profile */,
 				14E679171A57C683000AD141 /* Login */,
 				14E678B61A57BF8F000AD141 /* AppDelegate.h */,
 				14E678B71A57BF8F000AD141 /* AppDelegate.m */,
@@ -114,6 +130,8 @@
 			children = (
 				14E678B31A57BF8F000AD141 /* Info.plist */,
 				14E678B41A57BF8F000AD141 /* main.m */,
+				1449234B1A584F970009D306 /* VOWConstants.h */,
+				1449234C1A584F970009D306 /* VOWConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -296,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1449234D1A584F970009D306 /* VOWConstants.m in Sources */,
 				14E6791A1A57C6A2000AD141 /* VOWLoginViewController.m in Sources */,
+				144923511A5857490009D306 /* VOWProfileViewController.m in Sources */,
 				14E678BE1A57BF8F000AD141 /* SecondViewController.m in Sources */,
 				14E678B81A57BF8F000AD141 /* AppDelegate.m in Sources */,
 				14E678BB1A57BF8F000AD141 /* FirstViewController.m in Sources */,
